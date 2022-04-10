@@ -1,0 +1,13 @@
+name: tutorials
+title: tutorials
+username:
+account: batoolmm
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6058547
+bundleId: 5784280
+url: https://batoolmm.shinyapps.io/tutorials/
+when: 1649616220.35432
+lastSyncTime: 1649616220.35434
+asMultiple: FALSE
+asStatic: FALSE
