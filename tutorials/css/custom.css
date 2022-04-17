@@ -26,7 +26,7 @@ p.caption {
 }
 
 body {
-  background-image: url('bg5.png');
+  background-image: url('bg9-01.png');
   background-attachment: fixed;
   background-size: 100%;
 }
@@ -51,7 +51,7 @@ hr {
 
 code {
   background-color: #c34a79;
-  color: black;
+  color: white;
   font-family: Roboto Mono;
 }
 
