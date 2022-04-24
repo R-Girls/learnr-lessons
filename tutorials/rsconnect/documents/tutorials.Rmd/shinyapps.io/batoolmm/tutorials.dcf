@@ -5,9 +5,9 @@ account: batoolmm
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 6058547
-bundleId: 5807534
+bundleId: 5831145
 url: https://batoolmm.shinyapps.io/tutorials/
-when: 1650223842.26803
-lastSyncTime: 1650223842.26806
+when: 1650788000.81661
+lastSyncTime: 1650788000.81667
 asMultiple: FALSE
 asStatic: FALSE

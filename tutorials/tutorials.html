@@ -125,7 +125,8 @@ $(document).ready(function () {
 <p><img src="css/we_belive_in_you.jpeg" style="width: 600px; " /></p>
 <div id="section-how-does-this-tutorial-work" class="section level3">
 <h3>How does this tutorial work?</h3>
-<p>You don’t need to install R/RStudio locally to run these lessons. These interactive lessons relies on <a href="https://rstudio.github.io/learnr/">learnr package</a> to create an interactive code chunks, where we will run, edit, or write our own code. An example is shown below with some pre-populated code. Give it a try and click the ‘Run Code’ button in the top right to see the outcome of this code to make a ggplot graph!</p>
+<p>You don’t need to install R/RStudio locally to run these lessons. These interactive lessons rely on the <a href="https://rstudio.github.io/learnr/">learnr package</a> to create interactive code chunks, where we will run, edit, or write our own code. An example is shown below with some pre-populated code.</p>
+<p>Give it a try and click the ‘Run Code’ button in the top right to see the outcome of this code to make a ggplot graph!</p>
 <div class="tutorial-exercise" data-label="demo-1" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>mpg$class = with(mpg, reorder(class, hwy, median))
 
@@ -138,7 +139,7 @@ p &lt;- mpg %&gt;%
   p</code></pre>
 <script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"paged","exercise.checker":"NULL"}</script>
 </div>
-<p>There will be occasions where you will be asked to “fill in the blanks” for practice but there were also a “Hint” and/or “Solution” button - in case get stuck. You can find the hint or solution by clicking on that button. Go a head and try it below, as if you are asked to <strong>update the point color to “orange” and the point size to 4</strong> in this ggplot graph:</p>
+<p>There will be occasions where you will be asked to “fill in the blanks” for practice but there is also a “Hint” and/or “Solution” button - in case you get stuck. You can find the hint or solution by clicking on that button. Go ahead and try it below, where you are asked to <strong>update the point color to “orange” and the point size to 4</strong> in this ggplot graph:</p>
 <div class="tutorial-exercise" data-label="demo-2" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>ggplot(data = mtcars, aes(x = wt, y = mpg)) +
   geom_point()</code></pre>
@@ -171,7 +172,7 @@ p &lt;- mpg %&gt;%
 </div>
 <div id="section-citation" class="section level3">
 <h3>Citation</h3>
-<p>We genrate a DOI to the lessons through Zenodo archive using <a href="https://zenodo.org/record/6436861#.YlxG75NBxhE">DOI: 10.5281/zenodo.6436861</a>. DOIs allow us to archive this open source project and ensure that the work is tracked through metrics. If you use any of our lessons, please include the following attribution:</p>
+<p>We generated a DOI to the lessons through Zenodo archive using <a href="https://zenodo.org/record/6436861#.YlxG75NBxhE">DOI: 10.5281/zenodo.6436861</a>. DOIs allow us to archive this open source project and ensure that the work is tracked through metrics. If you use any of our lessons, please include the following attribution:</p>
 <blockquote>
 <p>RGirls Community. (2022, April 10). RGirls Lessons. Zenodo. <a href="https://doi.org/10.5281/zenodo.6436861" class="uri">https://doi.org/10.5281/zenodo.6436861</a></p>
 </blockquote>
